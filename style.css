@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h4,
+h2,
+h5 {
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+}
+
+.background-color {
+    background-color: #fff9f4;
+    height: 600px;
+}
+
+.nike-react {
+    color: orangered;
+    font-size: 60px;
+}
+
+.infinity-run {
+    font-size: 60px;
+}
+
+.paragraph {
+    color: dimgray;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+}
+
+.card-footer {
+    border: none;
+    background-color: white;
+}
+
+.custom-css {
+    background-color: #f1f1f1;
+
+    border-radius: 15px;
+}
+
+.pricing {
+    color: orangered;
+    margin-top: 10px;
+}
+
+.last-section-logo img {
+    height: 90px;
+}
+
+.service-detail {
+    width: 450px;
+}
+
+.last-container-image {
+    width: 100%;
+}
+
+.last-container-image img {
+    width: 100%;
+}
+
+.button-color {
+    color: orangered;
+    font-weight: 600;
+}
+
+.btn-colorful {
+    background: blue;
+    color: white;
+}
+
+.button-color2 {
+    background: orangered;
+    color: white;
+
+}
+
+/* Responsive part */
+
+@media(max-width:1200) {
+    .btn-responsive {
+        width: 150px;
+    }
+
+}
+
+@media(max-width:768px) {
+    .text-center1 {
+        text-align: center;
+        padding: 7%;
+    }
+}
